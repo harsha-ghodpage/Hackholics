@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - SmartMess</title>
+    <link rel="stylesheet" href="user profile.css">
+</head>
+<body>
+<center>
+    <div class="user-container">
+        <h2>User login</h2>
+
+        <form id="admin-form">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+<br>
+<br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+<br>
+<br>
+            <label for="subscription">Subscription Plan:</label>
+            <select id="subscription" name="subscription"><br>
+                <option value="daily">Daily</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly" selected>Monthly</option>
+            </select>
+            <br>
+            <br>
+            <label for="cancellation">cancellation:</label>
+            <input type="cancellation" id="cancellation" name="cancellation" required>
+            <br>
+            <br>
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+            </select>
+<br>
+<br>
+            <label for="meals">Meals Remaining:</label>
+            <input type="number" id="meals" name="meals" min="0" required>
+<br>
+<br>
+            <label for="payment">Last Payment Date:</label>
+            <input type="date" id="payment" name="payment">
+<br>
+<br>
+            <div class="form-buttons">
+                <button type="submit" class="btn submit">Submit</button>
+              
+            </div>
+          
+          </center>
+        </form>
+    </div>
+
+    <script src="User-form.js"></script>
+</body>
+</html>

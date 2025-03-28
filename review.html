@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - SmartMess</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+<body>
+  <header>
+        <h1 text-align="centre">SmartMess</h1>
+        <nav>
+            <ul>
+                    <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+        <div class="user-bar">
+            <a href="user.html" class="btn">user</a>
+        </div>
+        <div class="Admin-bar">
+            <a href="Admin.html" class="btn">Admin</a>
+        </div>
+    </header>
+    <header>
+        <h1>Customer Reviews</h1>
+    </header>
+
+    <main>
+        <section class="reviews-container">
+            <h2>What Our Customers Say</h2>
+            <div class="review">
+                <p>"SmartMess makes meal management stress-free and helps reduce food waste. Highly recommended!"</p>
+                <span>- John Doe</span>
+            </div>
+            <div class="review">
+                <p>"Great service and healthy meal options!"</p>
+                <span>- Jane Smith</span>
+            </div>
+            <div class="review">
+                <p>"Affordable meal plans and excellent customer support. Loving it!"</p>
+                <span>- David Lee</span>
+            </div>
+        </section>
+
+        <section class="review-form-container">
+            <h2>Leave a Review</h2>
+            <form id="review-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="review">Your Review:</label>
+                <textarea id="review" name="review" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 SmartMess. All rights reserved.</p>
+    </footer>
+
+    <script src="reviews.js"></script>
+</body>
+</html>
