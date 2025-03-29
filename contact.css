@@ -1,0 +1,102 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contact Form Container */
+.contact-container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 450px;
+}
+
+/* Heading */
+h2 {
+  font-size: 26px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Description */
+p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Form Labels */
+label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  color: #555;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Input Fields */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background: #f9f9f9;
+  transition: border 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.2);
+}
+
+/* Button Styling */
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  margin-top: 15px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Contact Information */
+.contact-info {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .contact-container {
+      width: 90%;
+      padding: 20px;
+  }
+}
